@@ -1,3 +1,4 @@
+const baseURL = 'https://car-dodge-game-alpha.vercel.app/api';
 document.getElementById('loginForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const username = document.getElementById('username').value;
